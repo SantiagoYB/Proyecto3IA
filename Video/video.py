@@ -21,7 +21,7 @@ with open("bayesnet.dot", "w") as f:
 print("Creado bayesnet.dot")
 
 # esto es para q se muestre en imagen como se ve la red bayesiana
-os.system('dot -Tpng bayesnet.dot -o bayesnet.png')
+os.system('dot -Tpng bayesnet.dot -o bayesvideo.png')
 
 # esto es para mostrar q se creo la imagen
 print("La imagen de la red Bayesiana ha sido generada como 'bayesnet.png'.")

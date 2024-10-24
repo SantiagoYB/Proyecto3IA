@@ -1,0 +1,4 @@
+alarm -> johnCalls
+alarm -> maryCalls
+burglary -> alarm
+earthquake -> alarm

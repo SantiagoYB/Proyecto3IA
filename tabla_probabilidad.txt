@@ -1,0 +1,16 @@
+burglary: [0.001, 0.999]  # Probabilidad de que ocurra un robo
+earthquake: [0.002, 0.998]  # Probabilidad de que ocurra un terremoto
+
+# Probabilidades condicionales de la alarma dado los valores de burglary y earthquake
+alarm|burglary=0,earthquake=0: [0.001, 0.999]
+alarm|burglary=0,earthquake=1: [0.29, 0.71]
+alarm|burglary=1,earthquake=0: [0.94, 0.06]
+alarm|burglary=1,earthquake=1: [0.95, 0.05]
+
+# Probabilidades condicionales de que John llame, dado el valor de la alarma
+johnCalls|alarm=0: [0.05, 0.95]
+johnCalls|alarm=1: [0.9, 0.1]
+
+# Probabilidades condicionales de que Mary llame, dado el valor de la alarma
+maryCalls|alarm=0: [0.01, 0.99]
+maryCalls|alarm=1: [0.7, 0.3]
