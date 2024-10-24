@@ -1,0 +1,40 @@
+El proyecto 3 consiste en la implementación de un Motor de Inferencia por Enumeración.
+
+1- Red Bayesiana
+- Desarrollar un programa que implemente la estructura y funcionalidades básicas para modelar una 
+Red Bayesiana. La estructura de la red a procesar se describe en un archivo en el que en cada línea 
+se específica la relación de dependencia entre dos nodos. Incluir una función que permita mostrar, 
+en formato texto, la estructura de la red; es decir, poder recorrer la red desde la raíz verificando 
+para cada nodo cuáles son los nodos predecesores.
+
+- Ampliar el programa anterior para realizar la lectura de los valores de las tablas de probabilidad 
+asociadas a los nodos, estos también deben ser cargados desde un archivo. El archivo debe estructurarse 
+para que sea similar a las tablas del ejemplo visto en clase, con lo cual hacer modificaciones sea una 
+tarea sencilla. Incluir una función que permite visualizar, en formato texto, las tablas de probabilidad.
+
+2- Motor de Inferencia por Enumeración
+
+- Desarrollar un programa que permita un proceso de inferencia por enumeración con Redes Bayesiana para 
+toma de decisiones, similar al presentado en la clase de Métodos Probabilísticos. La estructura y tablas de 
+probabilidad se cargan utilizando los desarrollos realizados en el primer punto. El programa debe generar una 
+traza que permite evidenciar su correcto funcionamiento
+
+- Verificar y hacer ajustes para que el programa sea lo suficientemente genérico para permitir en forma ágil 
+realizar inferencias en casos de aplicación en cualquier dominio.
+
+3- Validación de Motor de Inferencia
+
+Para validar el funcionamiento se debe implementar el ejemplo visto en clase. Hacer pruebas, no solo para el 
+caso específico de la clase, sino también para otras inferencias que se puedan hacer con la misma red 
+bayesiana.
+
+Para el desarrollo se debe utilizar un lenguaje Orientado a Objetos (C++, Java o incluso Python) . Se deben 
+crear clases con sus respectivos métodos para las entidades más representativas de una Red Bayessiana 
+(nodos, arcos, grafo de la red); deben ser clases acordes, y no simplemente meter todo en strings a toquenizar,
+o en listas o diccionarios. Esta solución debe estar lista, funcional y entregada al empezar la clase de sustentación del proyecto, acorde con el cronograma del curso. El código debe ir comentado con un buen nivel de detalle.
+
+En este buzón se debe realizar la entrega definitiva al final de la misma, se debe enviar la versión completa 
+con código comentado, un documento de documentación del proceso utilizado para llegar a la solución. En el 
+texto del envío incluir los nombres de los estudiantes del grupo. Empaquetar en un solo archivo ZIP los 
+archivos fuentes (proyecto) finales que tienen la solución solicitada y pantallazos que demuestren la 
+operación correcta del mismo.
