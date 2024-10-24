@@ -1,0 +1,14 @@
+digraph "no_name" {
+  graph [bgcolor=transparent,label="no_name"];
+  node [style=filled fillcolor="#ffffaa"];
+
+"cl" [comment="0:cloudy ?{0|1}"];
+"s" [comment="1:s[0,1]"];
+"r" [comment="2:r[0,1]"];
+"w" [comment="3:w[0,1]"];
+
+  "cl" -> "s";
+  "cl" -> "r";
+  "s" -> "w";
+  "r" -> "w";
+}
