@@ -1,0 +1,27 @@
+DEPENDENCIAS
+Rain:
+Maintenance: Rain
+Train: Rain, Maintenance
+Appointment: Train
+
+PROBABILIDADES
+Rain = none: 0.7, 0.3
+Rain = light: 0.2, 0.8
+Rain = heavy: 0.1, 0.9
+
+Maintenance = yes | none: 0.8, 0.2
+Maintenance = no | none: 0.9, 0.1
+Maintenance = yes | light: 0.6, 0.4
+Maintenance = no | light: 0.7, 0.3
+Maintenance = yes | heavy: 0.4, 0.6
+Maintenance = no | heavy: 0.5, 0.5
+
+Train = on time | yes: 0.9, 0.1
+Train = delayed | yes: 0.6, 0.4
+Train = on time | no: 0.9, 0.1
+Train = delayed | no: 0.7, 0.3
+
+Appointment = attend | on time: 0.9, 0.1
+Appointment = miss | on time: 0.6, 0.4
+Appointment = attend | delayed: 0.5, 0.5
+Appointment = miss | delayed: 0.5, 0.5
